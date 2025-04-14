@@ -23,7 +23,7 @@ const projects = [
 const Projects = () => {
   return (
     <section className="projects-section" >
-      <h2>My Projects</h2>
+      <h2 className="project-title">My Projects</h2>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div key={index} className="project-card">

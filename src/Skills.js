@@ -19,7 +19,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div key={index} className="skill-card">
             <div className="skill-icon">{skill.icon}</div>
-            <p>{skill.name}</p>
+            <p className="skill-text">{skill.name}</p>
           </div>
         ))}
       </div>
